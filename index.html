@@ -3,31 +3,201 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <meta name="description" content="Waleed Mahmood is a data scientist and economist building practical machine-learning systems, reproducible data products, and evidence-led analysis.">
+    <meta name="theme-color" content="#07111f">
+    <meta property="og:title" content="Waleed Mahmood — Data Scientist & Economist">
+    <meta property="og:description" content="Selected work in machine learning, economic research, reproducible analytics, and data products.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://waleedmahmood1.github.io/">
+    <title>Waleed Mahmood — Data Scientist &amp; Economist</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+        <a class="wordmark" href="#top" aria-label="Waleed Mahmood, home">WM<span>.</span></a>
+        <nav aria-label="Primary navigation">
+            <a href="#work">Work</a>
+            <a href="#experience">Experience</a>
+            <a href="#about">About</a>
         </nav>
+        <a class="header-cta" href="#contact">Let's talk</a>
     </header>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Introduce yourself here.</p>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>Showcase your projects here.</p>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Provide your contact information here.</p>
-    </section>
+
+    <main id="main">
+        <section class="hero" id="top" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="eyebrow">Data scientist · Economist · Builder</p>
+                <h1 id="hero-title">Turning complex data into <em>clear decisions.</em></h1>
+                <p class="hero-intro">I combine economic reasoning, applied research, and machine learning to build reliable data products and practical AI systems.</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↘</span></a>
+                    <a class="button button-secondary" href="https://github.com/WaleedMahmood1" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+                </div>
+            </div>
+            <div class="hero-visual" aria-hidden="true">
+                <div class="signal-card">
+                    <span class="signal-label">VOICE / EMOTION</span>
+                    <div class="waveform">
+                        <i style="--h:32%"></i><i style="--h:55%"></i><i style="--h:84%"></i><i style="--h:48%"></i><i style="--h:92%"></i><i style="--h:65%"></i><i style="--h:38%"></i><i style="--h:76%"></i><i style="--h:100%"></i><i style="--h:58%"></i><i style="--h:42%"></i><i style="--h:72%"></i><i style="--h:50%"></i><i style="--h:28%"></i>
+                    </div>
+                    <div class="signal-result"><span>FEATURES EXTRACTED</span><strong>MFCC · ZCR · RMS</strong></div>
+                </div>
+                <span class="orbit orbit-one"></span>
+                <span class="orbit orbit-two"></span>
+            </div>
+        </section>
+
+        <section class="proof-strip" aria-label="Areas of expertise">
+            <span>Machine learning</span>
+            <span>Economic research</span>
+            <span>Reproducible analytics</span>
+            <span>Data products</span>
+        </section>
+
+        <section class="section" id="work" aria-labelledby="work-title">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">Selected work</p>
+                    <h2 id="work-title">Projects with a point of view.</h2>
+                </div>
+                <p>A focused selection spanning audio intelligence, public data, analytical software, and reproducible workflows.</p>
+            </div>
+
+            <div class="project-grid">
+                <article class="project-card project-featured">
+                    <div class="project-art emotion-art" aria-hidden="true">
+                        <div class="emotion-ring"><span>8</span><small>emotions</small></div>
+                        <div class="spectrogram"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-meta"><span>01</span><span>Featured · Machine learning</span></div>
+                        <h3>EmRec</h3>
+                        <p class="project-lede">Recognizing emotion in spoken audio through signal processing and supervised learning.</p>
+                        <p>I helped build the preprocessing, acoustic feature extraction, and exploratory analysis workflow for a system trained on approximately 1,440 RAVDESS audio clips.</p>
+                        <ul class="tags" aria-label="Technologies">
+                            <li>Python</li><li>librosa</li><li>Signal processing</li><li>Scikit-learn</li><li>CNNs</li>
+                        </ul>
+                        <a class="text-link" href="https://github.com/WaleedMahmood1/EmRec" target="_blank" rel="noreferrer">View project on GitHub <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-art birth-art" aria-hidden="true">
+                        <div class="bar-chart"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                        <span class="chart-note">API → insight</span>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-meta"><span>02</span><span>Applied analysis</span></div>
+                        <h3>Canadian Birth Probabilities</h3>
+                        <p>A technical assessment that retrieves World Bank data, normalizes nested JSON, analyzes demographic patterns, and communicates results in an annotated notebook.</p>
+                        <ul class="tags" aria-label="Technologies">
+                            <li>Python</li><li>pandas</li><li>REST APIs</li><li>Matplotlib</li>
+                        </ul>
+                        <a class="text-link" href="https://github.com/WaleedMahmood1/Canada_birth_probabilities" target="_blank" rel="noreferrer">View project on GitHub <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-art package-art" aria-hidden="true">
+                        <span class="package-cube">PY</span>
+                        <div class="check-list"><span>✓ tests</span><span>✓ docs</span><span>✓ CI/CD</span></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-meta"><span>03</span><span>Analytical software</span></div>
+                        <h3>pycounts</h3>
+                        <p>A reusable Python package for counting and visualizing word frequencies, supported by unit tests, documentation, dependency management, and CI/CD experimentation.</p>
+                        <ul class="tags" aria-label="Technologies">
+                            <li>Python</li><li>pytest</li><li>Packaging</li><li>GitHub Actions</li>
+                        </ul>
+                        <a class="text-link" href="https://github.com/WaleedMahmood1/waleed-pycounts" target="_blank" rel="noreferrer">View project on GitHub <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+
+                <article class="project-card project-wide">
+                    <div class="project-content">
+                        <div class="project-meta"><span>04</span><span>Reproducible systems</span></div>
+                        <h3>Automated Data Analysis Pipeline</h3>
+                        <p>A dependency-driven text-analysis workflow that separates source data, analysis, visual outputs, and reporting—and rebuilds everything through a single command.</p>
+                        <ul class="tags" aria-label="Technologies">
+                            <li>GNU Make</li><li>Python</li><li>Shell</li><li>R Markdown</li>
+                        </ul>
+                        <a class="text-link" href="https://github.com/WaleedMahmood1/data_analysis_pipeline_practice" target="_blank" rel="noreferrer">View project on GitHub <span aria-hidden="true">↗</span></a>
+                    </div>
+                    <div class="pipeline" aria-label="Pipeline: data to analysis to figures to report">
+                        <span>DATA</span><b>→</b><span>ANALYSIS</span><b>→</b><span>FIGURES</span><b>→</b><span>REPORT</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section experience-section" id="experience" aria-labelledby="experience-title">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">Beyond the code</p>
+                    <h2 id="experience-title">Research, strategy, and real-world impact.</h2>
+                </div>
+                <p>My work sits at the intersection of analytical depth and practical decision-making.</p>
+            </div>
+            <div class="experience-grid">
+                <article>
+                    <span class="experience-number">01</span>
+                    <h3>PegasusAI</h3>
+                    <p class="role">Founder · Data Scientist · Lead Economist</p>
+                    <p>Translating business problems into focused AI and data solutions, grounded in economic reasoning and measurable value.</p>
+                    <a class="text-link" href="https://www.pegasusaiconsulting.com/" target="_blank" rel="noreferrer">Visit PegasusAI <span aria-hidden="true">↗</span></a>
+                </article>
+                <article>
+                    <span class="experience-number">02</span>
+                    <h3>Economic research</h3>
+                    <p class="role">Co-author · The Asia Foundation</p>
+                    <p>Co-authored <cite>The Political Economy of Debt</cite>, examining unreported financial obligations and recommendations for stronger fiscal transparency.</p>
+                    <a class="text-link" href="https://asiafoundation.org/publication/the-political-economy-of-debt/" target="_blank" rel="noreferrer">Read the publication <span aria-hidden="true">↗</span></a>
+                </article>
+                <article>
+                    <span class="experience-number">03</span>
+                    <h3>International trade</h3>
+                    <p class="role">Commercial Attaché · PCTA</p>
+                    <p>Supporting the Pakistan Canada Trade Association with commercial insight shaped by research, economics, and cross-sector collaboration.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section about-section" id="about" aria-labelledby="about-title">
+            <div class="about-copy">
+                <p class="eyebrow">About</p>
+                <h2 id="about-title">Economics taught me to ask why. Data science taught me how to test it.</h2>
+                <p>My path began with a BSc (Hons.) in Economics and a minor in Mathematics, followed by public-health research and a growing interest in analytical methods. I completed a Master of Data Science at the University of British Columbia, where I worked across predictive analytics, collaborative software development, and reproducible research.</p>
+                <p>Today I bring those disciplines together: framing the right question, building the technical system, and communicating what the evidence means.</p>
+            </div>
+            <div class="capabilities">
+                <h3>Capabilities</h3>
+                <ul>
+                    <li><span>01</span>Machine learning &amp; signal processing</li>
+                    <li><span>02</span>Economic &amp; statistical analysis</li>
+                    <li><span>03</span>Data pipelines &amp; reproducibility</li>
+                    <li><span>04</span>Python &amp; R package development</li>
+                    <li><span>05</span>Research communication &amp; visualization</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact" aria-labelledby="contact-title">
+            <p class="eyebrow">Start a conversation</p>
+            <h2 id="contact-title">Have a difficult question hiding in your data?</h2>
+            <p>I'm interested in thoughtful collaborations across data science, AI, economics, and applied research.</p>
+            <div class="contact-actions">
+                <a class="button button-light" href="https://www.pegasusaiconsulting.com/" target="_blank" rel="noreferrer">Work with me <span aria-hidden="true">↗</span></a>
+                <a class="button button-outline" href="https://github.com/WaleedMahmood1" target="_blank" rel="noreferrer">Explore GitHub <span aria-hidden="true">↗</span></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <a class="wordmark" href="#top" aria-label="Back to top">WM<span>.</span></a>
+        <p>Data science with economic context.</p>
+        <p>© <span id="year">2026</span> Waleed Mahmood</p>
+    </footer>
 </body>
 </html>
